@@ -1,15 +1,24 @@
 body{
   text-align: center;
+  line-height: 1.5rem;
+
 }
 
+/* ****************** NAV BAR******************** */
+
 nav{
- padding-top: 20px ;
+  overflow: hidden;
+  background-color: #275B6F;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  z-index: 100;
 }
  ul {
     list-style-type: none;
     margin-left: 80%;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color:#D0F2F3;
   }
   
@@ -20,7 +29,7 @@ nav{
   
   li a {
     display: block;
-    color: #275B6F;
+    color: #D0F2F3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,6 +39,8 @@ nav{
     background-color:#275B6F;
     color: #D0F2F3;
   }
+
+/* ************************* FIRST SECTION ************************* */
 
   .top{
     background-color: #D0F2F3;
@@ -50,11 +61,15 @@ nav{
  .pic{
   display: inline-block;
   position: absolute;
+  top: 15%;
   left: 60%;
   width: 350px;
   height: 500px;
   border-radius: 20px;
+  z-index: 0;
  }
+
+/* ********************** SECOND SECTION ***************************** */
 
  .about{
   background-color:#275B6F;
@@ -69,3 +84,43 @@ nav{
 .about #aboutus{
   padding: 40px;
 }
+
+table {
+  width: 100%;
+  margin-left: 10%;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  margin-left: 5%;
+  border-radius:50% ;
+  border-style: none;
+  background-color: #D0F2F3;
+}
+
+/* ****************** Map Page ***************************** */
+.map{
+  background-color: #D0F2F3;
+  padding: 0%;
+  margin: 0%;
+  height: 650px;
+  text-align: center;
+  padding: 50px;
+  color: #275B6F;
+}
+
+/* .parent{
+ position: relative;
+ top: 30%;
+ left: 10%;
+}
+
+#map_quote{
+position: absolute;
+
+} */
