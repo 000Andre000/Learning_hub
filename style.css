@@ -1,0 +1,49 @@
+*{
+  transition:all 0.3s ease-in-out;
+}
+
+.top{
+  background-color: #5B343B;
+  color: #DBCEBF;
+  height: 650px;
+  
+
+}
+
+.top_container{
+  clear:both;
+  overflow:auto;
+  /* margin: 10px ; */
+  padding: 10px;
+  background-color: #5B343B;
+  color: #DBCEBF;
+}
+
+nav{
+  float:right;
+}
+
+.logo{
+  float:left;
+  height:25%;
+  width:25%}
+
+ul li{
+  display: inline-block; 
+  padding:10px;
+  font-size: large;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
+.bkStk{
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 23%;
+  left: 55%;
+  bottom: 5px;
+}
