@@ -42,7 +42,7 @@ nav{
   height:25%;
   width:25%}
 
-  /* Navbar CSS */
+/* Navbar CSS */
 ul li{
   display: inline-block; 
   padding:10px;
@@ -171,10 +171,14 @@ ul li:hover{
   left: 100px;
 }
 table{
-  width: 100%;
+  /* width: 1000px;   */
   text-align: center;
   padding-top: 10%;
   padding-bottom: 10%;
+}
+
+td{
+  padding-left: 180px;
 }
 
 /**************************** Workshop Section *************************/
@@ -184,4 +188,65 @@ table{
   background-color: #DBCEBF;
   color: #5B343B;
   text-align:left;
+}
+
+#workshop_text{
+  position:absolute;
+  left: 70%;
+}
+
+/**************************** Join US Section *************************/
+
+.Join_us{
+  height: 650px;
+  background-color: #5B343B;
+  color: #DBCEBF;
+  text-align:left;
+  position: relative;
+}
+
+#join_text{
+  position:absolute;
+  left: 70%;
+}
+
+.submit_btn{
+  border-radius: 5px;
+  background-color: #DBCEBF;
+  width: fit-content;
+  height: 40px;
+  width: fit-content;
+}
+
+input{
+  font-size: 36px;
+  background-color: #5B343B;
+  border: none;
+}
+
+input::placeholder{
+  color: #DBCEBF;
+  background-color: #826963;
+}
+
+
+.joinUs_form{
+  position: absolute;
+  top: 10%;
+  left: 65%;
+  line-height: 7rem;
+}
+
+/**************************** Contact US Section *************************/
+
+.Contact_us{
+  height: 650px;
+  background-color: #DBCEBF;
+  color: #5B343B;
+  text-align:left;
+}
+
+#contact_text{
+  position:absolute;
+  left: 70%;
 }
